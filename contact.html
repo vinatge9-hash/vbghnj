@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Contact - Brew & Beans</title>
+  <meta name='description' content='Get in touch with Brew & Beans. We'd love to hear from you.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-[#F5DEB3] text-gray-800'>
+  <nav class='bg-[#3C2415] text-white sticky top-0 z-50'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='flex items-center justify-between h-16'>
+        <a href='index.html' class='text-2xl font-bold font-[Montserrat]'>Brew & Beans</a>
+        <div class='hidden md:flex space-x-6'>
+          <a href='index.html' class='hover:text-[#D2B48C] transition-colors duration-300'>Home</a>
+          <a href='about.html' class='hover:text-[#D2B48C] transition-colors duration-300'>About</a>
+          <a href='menu.html' class='hover:text-[#D2B48C] transition-colors duration-300'>Menu</a>
+          <a href='contact.html' class='hover:text-[#D2B48C] transition-colors duration-300'>Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class='py-12'>
+    <div class='max-w-7xl mx-auto px-4'>
+      <h1 class='font-[Montserrat] text-3xl md:text-4xl font-bold'>Contact Us</h1>
+      <p class='mt-2 text-sm text-gray-700'>Have a question or want to place a special order? Send us a message.</p>
+    </div>
+  </header>
+
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8'>
+      <form class='bg-white p-6 rounded-lg shadow' action='#' method='post'>
+        <label class='block mb-2 text-sm font-semibold'>Name</label>
+        <input type='text' name='name' placeholder='Your name' class='w-full p-3 border rounded mb-4'>
+        <label class='block mb-2 text-sm font-semibold'>Email</label>
+        <input type='email' name='email' placeholder='you@example.com' class='w-full p-3 border rounded mb-4'>
+        <label class='block mb-2 text-sm font-semibold'>Message</label>
+        <textarea name='message' rows='5' placeholder='Your message' class='w-full p-3 border rounded mb-4'></textarea>
+        <button type='submit' class='bg-[#D2B48C] text-[#3B2A1A] px-6 py-3 rounded-full transition-all duration-300 hover:bg-[#c9a47a]'>Send Message</button>
+      </form>
+      <aside class='bg-white p-6 rounded-lg shadow'>
+        <h3 class='font-[Montserrat] text-xl font-bold mb-2'>Our Location</h3>
+        <p class='text-sm'>456 Bean Ave, Coffee District</p>
+        <p class='text-sm mt-2'>Mon-Fri: 7:00 AM – 7:00 PM</p>
+        <p class='text-sm'>Sat-Sun: 8:00 AM – 6:00 PM</p>
+        <p class='mt-4 text-sm'>Phone: (555) 123-7890</p>
+      </aside>
+    </div>
+  </section>
+
+  <footer class='bg-[#3C2415] text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-12'>
+      <div class='grid grid-cols-1 md:grid-cols-4 gap-8'>
+        <div class='space-y-2'>
+          <h4 class='text-xl font-semibold text-[#D2B48C]'>Brew & Beans</h4>
+          <p class='text-sm text-gray-200'>Coffee, community, and care in every cup.</p>
+        </div>
+        <div class='space-y-2'>
+          <h5 class='text-lg font-semibold text-[#D2B48C]'>Visit</h5>
+          <p class='text-sm'>456 Bean Ave</p>
+          <p class='text-sm'>Coffee District</p>
+        </div>
+        <div class='space-y-2'>
+          <h5 class='text-lg font-semibold text-[#D2B48C]'>Hours</h5>
+          <p class='text-sm'>Mon-Fri: 7:00 AM - 7:00 PM</p>
+          <p class='text-sm'>Sat-Sun: 8:00 AM - 6:00 PM</p>
+        </div>
+        <div class='space-y-2'>
+          <h5 class='text-lg font-semibold text-[#D2B48C]'>Links</h5>
+          <a href='index.html' class='block text-sm text-gray-200 hover:text-[#D2B48C]'>Home</a>
+          <a href='menu.html' class='block text-sm text-gray-200 hover:text-[#D2B48C]'>Menu</a>
+          <a href='about.html' class='block text-sm text-gray-200 hover:text-[#D2B48C]'>About</a>
+        </div>
+      </div>
+      <hr class='border-gray-600 my-6 opacity-50'>
+      <p class='text-center text-sm text-gray-200'>© 2025 Brew & Beans. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
